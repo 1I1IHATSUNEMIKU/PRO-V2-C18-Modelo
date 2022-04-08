@@ -23,8 +23,8 @@ function setup(){
 //crie uma tela
 
 // createCanvas(window,window);
-// createCanvas(windowWidth,windowHeight);
-// createCanvas(width,height);
+ createCanvas(windowWidth,windowHeight);
+//createCanvas(width,height);
 // createCanvas(200,200);
 
 //plano de fundo se movendo
@@ -70,9 +70,9 @@ function draw() {
   //   path.y = height;
   // }
 
-  // if(path.y > height ){
-  //   path.y = height/2;
-  // }
+   if(path.y > height ){
+     path.y = height/2;
+   }
   
     createCash();
     createDiamonds();
